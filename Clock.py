@@ -10,4 +10,4 @@ while True:
     print(current_time2)
     print(current_time3)
     time.sleep(1)
-    os.system('clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
